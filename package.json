@@ -1,6 +1,6 @@
 {
   "name": "tps.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript library for Twitch PubSub System",
   "main": "index.js",
   "directories": {
