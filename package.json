@@ -1,0 +1,54 @@
+{
+  "name": "tps.js",
+  "version": "0.0.1",
+  "description": "Javascript library for Twitch PubSub System",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpsjs/tps.js.git"
+  },
+  "keywords": [
+    "tps",
+    "twitch",
+    "twitc.tv",
+    "stream",
+    "broadcast",
+    "pubsub",
+    "system",
+    "websocket",
+    "ws"
+  ],
+  "files": [
+    "lib",
+    "index.js",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "HiImMikeGaming (mzmiric5)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpsjs/tps.js/issues"
+  },
+  "homepage": "https://github.com/tpsjs/tps.js#readme",
+  "dependencies": {
+    "nonce": "^1.0.4",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "hook-std": "^0.2.0",
+    "istanbul": "^0.4.4",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.0.2",
+    "rimraf": "^2.5.4",
+    "should": "^11.0.0",
+    "uglify-js": "^2.7.0"
+  }
+}
