@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tpsjs/tps.js.git"
+    "url": "git://github.com/tpsjs/tps.js.git"
   },
   "keywords": [
     "tps",
